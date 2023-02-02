@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.bg-image {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://plus.unsplash.com/premium_photo-1674765835994-58cde06affbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNpdHl8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+  background-repeat: no-repeat;
+  background-size: 160%;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container {
+  min-height: 100vh;
+}
+
+.container h1 {
+  padding: 100px;
+  font-size: 50px;
+  /* 
+  @media (max-width: 500px) {
+    padding: 10px;
+  } */
+}
+.container p {
+  color: grey;
+}
+
+@media (max-width: 500px) {
+  .container h1 {
+    padding: 10px;
+  }
+}
